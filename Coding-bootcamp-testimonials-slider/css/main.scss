@@ -6,10 +6,6 @@
 }
 
 body {
-  height: 100vh;
-  // .john{
-  //   display: none;
-  // }
   display: grid;
   // grid-template-columns: 1fr;
   grid-template-rows: 1fr 0.9fr;
@@ -19,7 +15,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Inter", sans-serif;
-  background-image: url("../images/pattern-curve.svg");
+  background-image: url("/images/pattern-curve.svg");
   background-size: 100%;
   background-position: bottom;
   background-repeat: no-repeat;
@@ -31,7 +27,7 @@ img {
 
 .person-container {
   grid-area: person;
-  background-image: url("../images/pattern-bg.svg");
+  background-image: url("/images/pattern-bg.svg");
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -70,7 +66,7 @@ img {
 }
 .info-container {
   grid-area: info;
-  background-image: url("../images/pattern-quotes.svg");
+  background-image: url("/images/pattern-quotes.svg");
   background-repeat: no-repeat;
   background-size: 70px;
   background-position: center top 0.5em;
